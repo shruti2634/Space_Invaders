@@ -18,7 +18,7 @@ mixer.music.load('911_-The-Nights.wav')
 mixer.music.play(-1)
 
 # Caption and Icon
-pygame.display.set_caption("Space Invader")
+pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
@@ -64,7 +64,7 @@ textX = 10
 testY = 10
 
 # Game Over
-over_font = pygame.font.Font('freesansbold.ttf', 64)
+over_font = pygame.font.Font('freesansbold.ttf', 72)
 
 
 def show_score(x, y):
